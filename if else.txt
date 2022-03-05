@@ -1,0 +1,41 @@
+void main() {
+  print("=====================");
+  print('MY MARK SHEET');
+  print("MY Name is Daniyal");
+  var english = 67;
+  var urdu = 21;
+  var maths = 35;
+  var chemistry = 42;
+  var physics = 88;
+  var obtain_marks = ( english+urdu+maths+chemistry+physics);
+  print("obtain_marks:$obtain_marks");
+  num total_marks = 500;
+  print("total_marks:$total_marks");
+  num percentage = (obtain_marks/total_marks)*100;
+  print("percentage:$percentage%");
+  
+  if (percentage>=80)
+  {
+    print("GRADE A+");
+  }
+  else if (percentage>=70)
+  {
+    print("GRADE A");
+  }
+  else if (percentage>= 60)
+  {
+    print("GRADE B");
+  }
+    else if (percentage>= 50)
+    {
+      print("GRADE C");
+    }
+  else if (percentage>=50)
+  {
+    print("GRADE D");
+}
+  else{
+    print("YOU ARE FAIL");
+  }
+    print("====================");
+}
