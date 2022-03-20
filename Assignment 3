@@ -1,1 +1,95 @@
+void main ()
+{
+for (i=0 ;i<=10 ; i++)
+{
+print(i):
+}
+**********************
+table
+
+void main()
+{
+    var a=7;
+    for(var i=1; i<10; i++)
+    {
+        print(a*i);
+        
+    }
+}
+
+************************
+void main()
+{
+var list1 =[ 10,20,30,40,50];
+for (var i in list1)
+{
+print(i);
+}
+
+***********************
+even and odd number
+
+void main(){
+  var list =[1,2,3,4,5];
+  for (var i in list)
+  if (i%2 == 0)
+  {
+    print(i);
+  }
+
+}
+
+*********************************************
+largest number
+
+void main(){
+   var list = [76,1,21,33,4,5,6,47,8,96,1];
+  int largest = list[0];
+   for (var i in list)
+   if(largest < i){
+    largest =i;
+  }
+  print("largest");
+print(largest);
+
+}
+
+*************************************************
+smallest number
+
+void main(){
+   var list = [76,1,21,33,4,5,6,47,8,96,110];
+  int smallest = list[0];
+   for (var i in list)
+   if(smallest > i){
+    largest =i;
+  }
+  print("smallest");
+print(smallest);
+
+}
+
+****************************************************
+2nd smallest
+
+
+void main(){
+   var list = [76,1,21,33,4,5,6,47,8,96,110];
+ list.sort();
+ print("1st smallest");
+ print(list[0]);
+ print("2nd smallest");
+ print(list[1]);
+
+}
+
+*********************************************************
+void main(){
+  int i=0;
+  do{
+    i++;
+    print(i);
+  }
+  while(i < 10);
+}
 
